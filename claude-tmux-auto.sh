@@ -35,7 +35,7 @@ fi
 echo "📖 Final file:"
 cat "$FINAL_FILE"
 
-# Import to Archon
+# Import to mcp
 echo ""
 echo "🔄 Importing to Archon..."
 if command -v curl >/dev/null 2>&1 && [ -f "$FINAL_FILE" ]; then
